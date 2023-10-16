@@ -1,0 +1,13 @@
+/* Selector Universal*/
+
+
+/*Selector de elmento*/
+
+body{
+    background-color: rgba(255, 239, 168, 0.836);
+}
+
+h1, mark{
+    color: blue;
+    background-color: rgb(255, 0, 0);
+}
