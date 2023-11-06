@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      table{
+         margin: center;
+         border-collapse: collapse;
+         border-color: blue;
+      }
+      caption{
+         caption-side: bottom;
+         background-color: red;
+         color: white;
+         border-color: blue;
+         border-width: 1px;
+      }
+      thead{
+         background-color: aquamarine;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      
+    </style>
 </head>
 <body>
-    <table border="1">
+    <table border="2">
+      <caption>HORARIO DE CLASE</caption>
+      <thead>
          <tr>
             <th></th>
             <th>Lunes</th>
@@ -15,6 +37,7 @@
             <th>Jueves</th>
             <th>Viernes</th>
          </tr>
+      </thead>
          <tr>
             <th>15:30-16:25</th>
             <td rowspan="2">SOR</td>
@@ -37,7 +60,7 @@
          </tr> 
          <tr>
             <th>18:15-18:30</th>
-            <td colspan="5">RECREO</td>
+            <td id="recreo" colspan="5">RECREO</td>
          </tr> 
          <tr>
             <th>18:30-19:25</th>
