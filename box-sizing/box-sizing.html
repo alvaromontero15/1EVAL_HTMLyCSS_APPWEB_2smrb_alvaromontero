@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Sizing</title>
+    <style>
+        p.parrafo1{
+            width: 200px;
+            height: 100px;
+            box-sizing: content-box;
+            border: red 25px solid;
+        }
+        p.parrafo2{
+            width: 200px;
+            height: 100px;
+            box-sizing: border-box;
+            border: red 25px solid;   
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Parráfo 1: content box</h1>
+    <p class="parrafo1">Este párrafo tiene un tamaño de 200px por 100px.</p>
+    <h1>Parráfo 2: border box</h1>
+    <p class="parrafo2">Este párrafo tiene un tamaño de 200px por 100px.</p>
+
 </body>
 </html>
