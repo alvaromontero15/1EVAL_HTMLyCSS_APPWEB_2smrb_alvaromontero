@@ -5,6 +5,9 @@ nav{
     color: white;
     background-color: rgb(85, 85, 85);
 }
+div.nav-item{
+
+}
 div.container{
     background-color: lightgreen;
     margin-top: 75px;
@@ -15,11 +18,15 @@ div.container{
     height: 800px;
 }
 div.fixed-sidebar{
-    width: auto;
-    height: auto;
+    width: 125px;
+    height: 450px;
     box-sizing: border-box;
     border: black 2px solid;
-    border-bottom-right-radius: ;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    top: -620px;
+    padding: 4px 10px;
 }
 div.fixed-sidebar img{
     width: 100px;
@@ -28,4 +35,8 @@ div.fixed-sidebar img{
     margin-bottom: 2px;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+li{
+    list-style: none;
 }
